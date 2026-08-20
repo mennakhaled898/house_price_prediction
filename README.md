@@ -104,14 +104,10 @@ pip install -r requirements.txt
 ```
 ⚠️ `house_price.pkl` is not committed to this repo.
 Run `notebooks/house_price_model.ipynb` top to bottom first — the last cell
-exports `house_price.pkl` and `locations.json` — then copy them in:
+exports `house_price.pkl` and `locations.json` — then copy them :
 
-```bash
-cp notebooks/house_price.pkl backend/models/house_price.pkl
-cp notebooks/locations.json backend/models/locations.json
-cp notebooks/locations.json frontend/public/locations.json
-```
 # Copy the artifacts produced by the notebook:
+```bash
 cp ../notebooks/house_price.pkl models/house_price.pkl
 cp ../notebooks/locations.json models/locations.json
 
@@ -215,9 +211,6 @@ curl -X POST http://localhost:8000/predict \
 
 ## Screenshots
 
-_Add screenshots of the running form and result page here once you've verified the app end to
-end, e.g.:_
-
 ```
 docs/screenshot-form.png
 docs/screenshot-result.png
@@ -229,5 +222,4 @@ docs/screenshot-result.png
 2. Terminal 2: `cd frontend && npm run dev` (port 5173)
 3. Open `http://localhost:5173`, fill in the form, submit, and see the predicted price.
 
-## Publishing to GitHub
 
