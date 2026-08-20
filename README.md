@@ -211,10 +211,13 @@ curl -X POST http://localhost:8000/predict \
 
 ## Screenshots
 
-```
-docs/screenshot-form.png
-docs/screenshot-result.png
-```
+### Form
+
+![House price prediction form](docs/screenshot-form.png)
+
+### Result
+
+![Predicted price result](docs/screenshot-result.png)
 
 ## Running the full stack
 
