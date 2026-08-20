@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+
+# Env files
+.env
+*.log
+
+# Raw dataset (large - download instructions are in the README)
+notebooks/data/house_prices.csv
+
+# Trained model artifact (large - regenerate by running the notebook, see README)
+backend/models/house_price.pkl
+notebooks/house_price.pkl
